@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: blue;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+nav img {
+    margin: 2%;
+    width: 100px;
+    object-fit: contain;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 5px;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+nav ul li:last-child {
+    background-color: rgb(255, 217, 0);
+    border-radius: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+main {
+    background-color: rgb(0, 148, 241);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-main {
+    max-width: 410px;
+}
+
+.container-main h1 {
+    line-height: 1, 5;
+
+}
+
+.container-main h4 {
+    margin-bottom: 30px;
+    line-height: 2;
+    font-weight: 200;
+}
+
+main img {
+    max-width: 500px;
+}
+
+.button-account {
+    background-color: gold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+.button-account:hover {
+    background-color: rgb(213, 174, 45);
+}
+
+.video-prop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.ifrm {
+    border-radius: 25px;
+}
+
+.phrase {
+    text-align: center;
+}
+
+.container-cards {
+    background-color: rgb(0, 62, 88);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-cards div {
+    cursor: pointer;
+    border-radius: 20px;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 65px 0px;
+
+}
+
+.container-cards div:first-child {
+    background-color: rgb(220, 249, 248);
+}
+
+.container-cards div:nth-child(2) {
+    background-color: rgb(192, 234, 255);
+}
+
+.container-cards div:last-child {
+    background-color: rgb(63, 236, 252);
+}
+
+.container-cards img {
+    width: 150px;
+    margin: 10px;
+}
+
+.container-cards div p {
+    text-align: center;
+    margin: 20px 0px;
+    color: rgb(2, 2, 22);
+}
+
+.container-button2 {
+    background-color: rgb(0, 62, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.button-account2 {
+    background-color: gold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    width: 250px;
+
+
+}
+
+.button-account2:hover {
+    background-color: rgb(213, 174, 45);
+}
+
+.container-dash {
+    background-color: rgb(0, 102, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-dash img {
+    margin: 10px;
+    width: 400px;
+}
+
+.container-dash h2 {
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    max-width: 410px;
+}
